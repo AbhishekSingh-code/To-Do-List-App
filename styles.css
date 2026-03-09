@@ -1,0 +1,78 @@
+*{
+    color: white;
+    background: #361B68;
+    /* text-align: center; */
+}
+.app{
+    justify-self: center;
+    margin-top: 10rem;
+    text-align: center;
+    background: rgb(239, 239, 238);
+    height: auto;
+    width: 30vw;
+    border-radius: 5px;
+    padding-bottom: 6px;
+}
+h1{
+    background: transparent;
+    color: #032566;
+    text-decoration: underline;
+}
+.add{
+    background: transparent;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+input::placeholder{
+    color: rgb(181, 182, 182);
+    background-color: #EDEEF0;
+}
+input{
+    margin-bottom: 15px;
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+    width: 18em;
+    height: 2em;
+    display: 0;
+    border-radius: 5px;
+}
+button
+{
+    border-radius: 5px;
+    height: 2.5em;
+    width: 4em;
+    background: transparent;
+    color: black;
+    background-color: #FF5845;
+    border: none;
+    cursor: pointer;
+}
+.works{
+    /* border: 1.5px solid black; */
+    background: transparent;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    
+}
+.works div{
+    border: 1.5px solid black;
+    width: 18.5em;
+    justify-self: center;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-align: left;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.works div li{
+    font-size: 1.2em;
+    padding-left: 5px;
+}
+#close{
+    cursor: pointer;
+}
